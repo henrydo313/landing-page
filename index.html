@@ -4,52 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Henry's Landing Page</title>
 </head>
 <body>
     <nav>
         <div class="logo">Header Logo</div>
         <ul class="nav-links">
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
+            <li><a href="">header link one</a></li>
+            <li><a href="">header link two</a></li>
+            <li><a href="">header link three</a></li>
         </ul>
     </nav>
 
+
     <div class="banner">
-        <div class="media">
-            <div class="content">
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title.
-                    It's a smaller font and the color is lower contrast.
-                </p>
-                <button>Sign up</button>
-            </div>
-            <img>
+        <div class="banner-text">
+            <p class="banner-title">This website is awesome</p>
+            <p class="banner-subtext">
+                This website has some subtext that goes here under the main title.
+                It's a smaller font and the color is lower contrast.
+            </p>
+            <button class="signup-button">Sign up</button>
         </div>
+        <img class="banner-image" src="" alt="placeholder image">
     </div>
 
+
     <div class="content">
-        <h2>Some random information</h2>
         <div class="slideshow">
-            <div class="slide">
-                <img>
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-
-            <div class="slide">
-                <img>
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-
-            <div class="slide">
-                <img>
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-
-            <div class="slide">
-                <img>
-                <p>this is some subtext under an illustration or image</p>
+            <h2 class="slideshow-title">Some random information.</h2>
+            <div class="slide-container">
+                <div class="slide">
+                    <img src="" alt="slide1">
+                    <p class="slide-caption">this is some subtext under an illustration or image</p>
+                </div>
+    
+                <div class="slide">
+                    <img src="" alt="slide2">
+                    <p class="slide-caption">this is some subtext under an illustration or image</p>
+                </div>
+    
+                <div class="slide">
+                    <img src="" alt="slide3">
+                    <p class="slide-caption">this is some subtext under an illustration or image</p>
+                </div>
+    
+                <div class="slide">
+                    <img src="" alt="slide4">
+                    <p class="slide-caption">this is some subtext under an illustration or image</p>
+                </div>
             </div>
         </div>
 
@@ -59,21 +63,21 @@
                 Maybe it's just filling up space, or maybe people will actually read it. 
                 Who knows? All I known is that it looks nice.
             </div>
-            <div class="author">-Thor, God of Thunder</div>
+            <div class="author"><p>-Thor, God of Thunder</p></div>
         </div>
 
         <div class="action-sign">
             <div class="sign-text">
                 <div class="sign-title">Call to action! It's time!</div>
-                <div class="sign-content">
+                <div class="sign-subtext">
                     Sign up for our product by clicking that button right over there!
                 </div>
-                <button>Sign up</button>
             </div>
+
+            <button class="signup-button">Sign up</button>
         </div>
     </div>
 
-    
 
     <div class="footer">
         <p>Copyright © The Odin Project 2021</p>
